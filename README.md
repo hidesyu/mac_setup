@@ -5,7 +5,9 @@
 ### 2. init.shの実行
 
 1. 本リポジトリを `~/` にcloneする
-2. `sh -c init.sh` を実行する
+2. sudo chmod 777 mac_setup.sh で権限を変更する
+3. 
+4. `sh -c ./mac_setup/mac_setup.sh` を実行する
    1. Xcodeがインストールされる
    2. brew bundleで各種アプリ、フォントをインストール
    3. システム環境設定が変更される
